@@ -1,3 +1,7 @@
+p{
+font-family: 'Raleway', sans-serif;
+font-weight: 300;
+}
 .navbar-default{
   border-color: transparent;
   background-color: transparent;
@@ -13,11 +17,15 @@
   text-shadow: 1px 1px 2px #0a0a0a;
 }
 .navbar-default .navbar-nav>li>a:hover{
-  color: orange;
+  color: #F8512F;
   background-color: rgba( 0, 0, 0, .3);
 }
 .btn{
-  background-color: orange;
+  color: #F8512F;
+  background-color: rgba( 0, 0, 0, .3);
+}
+.btn{
+  background-color: #F8512F;
   color: white;
   border: none;
 }
@@ -43,3 +51,29 @@
 .carousel-caption{
   padding:70px;
 }
+#our_story{
+min-height: 600px;
+display: flex;
+align-items: center;
+}
+#our_story h1{
+  font-family: 'Lobster', cursive;
+  color: #F8512F;
+  font-size: 6em;
+  text-shadow: 1px 1px 5px #0a0a0a;
+}
+#our_story h2{
+position: absolute;
+font-family: 'Playfair Display', serif;
+font-weight: 700;
+font-size: 12em;
+color: rgba(149, 147, 147, .2);
+z-index: -1;
+}
+#our_story h3{
+font-family: 'Raleway', sans-serif;
+font-weight: 700;
+font-size: 2em;
+margin-top: 0;
+}
+
